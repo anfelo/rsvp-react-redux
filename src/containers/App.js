@@ -43,7 +43,7 @@ class App extends Component {
           addInvitee={addInvitee} />
         <div className="main">
           <div>
-            <h2>Invitees</h2>
+            <h2>Guests</h2>
             <ConfirmedFilter
               toggleFilterInvitees={toggleFilterInvitees}
               isFiltered={isFiltered} />
@@ -60,6 +60,9 @@ class App extends Component {
             isFiltered={isFiltered}
             removeInvitee={removeInvitee}
             pendingGuest={pendingGuest} />
+          <a className="social-link" href="https://github.com/anfelo/rsvp-react-redux">
+            <i className="fab fa-github-alt"></i> github
+          </a>
         </div>
       </div>
     );
